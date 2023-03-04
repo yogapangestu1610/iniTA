@@ -1,0 +1,11 @@
+qid,q,a,b,c,d,ans,marks
+1,"software atay tools yang mendukung visualisasi data secara kolaboratif bagi seseorang yang bekerja dalam menganalisis informasi bisnis, tools ini dapat mempermudah pembuatan analisis visual interaktif dalam bentuk dashboard.  adalah pengertian singkat dari ?",Cassandra,Pentaho,Looker,Tableau,d,1
+2,Big Data akan menjadi inti yang menghubungkan segala sesuatunya. Dengan kemampuan untuk mengumpulkan data internasional dalam volume besar secara ?,Tepat Waktu,Besar & Banyak,Otomatis,Efesien,d,2
+3,Kerentanan dari sisi keakuratan dan kevaliditasan adalah pernyataan dari ?,Veracity,Variety,Volume,Velocity,a,1
+4,Regulasi data sekarang hampir real time dan rentang waktu pembaruan telah berkurang menjadi sepersekian detik. adalah pernyataan dari ?,Volume,Value,Velocity,Veracity,c,1
+5,Arsitektur big data adalah struktur keseluruhan yang merepresentasikan ?,Data & Database,Logical & Physical,Waktu & Efesiensi,Komponen Big Data,b,2
+6,"Jika data terhitung ringan, tahapan setelah real time streaming processor adalah data akan langsung disimpan dalam ?",Database,BigData,Data Proses,Data Source,d,1
+7,"Pemanfaatan dari adanya big data ini juga bisa meminimalisir kegagalan. Setelah menganalisisnya, hasil analisis dapat ditampilkan secara ?",Langsung,Virtual,Tidak Langsung,Gambar/Visualisasi,a,2
+8,Saat ini big data sering digunakan untuk ?,Artificial Inteeligence,IoT,Data Science,Semua Jawaban Benar,d,2
+9,Menonton video dan mendengarkan lagu di internet adalah salah satu contoh penggunaan Big Data pada ?,Penggunaan Internet,Sosial Media,Digitalisasi Media,Semua Jawaban Benar,c,1
+10,Teknologi canggih dengan kapasitas lebih besar dan kumpulan data yang lebih kompleks. Pernyataan tersebut merujuk pada ?,Data Science,Data Mining,Big-Data,Artificial Intelligence,c,2

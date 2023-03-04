@@ -1,0 +1,487 @@
+{% extends 'layout.html' %}
+{% block body %}
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<html>
+<head>
+     <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col">
+            <div class="card">
+                <div class="row card-body">
+                   <div class="col">
+                    <h1 class="display-2 mb-4">Keamanan Ujian<br class="d-none d-md-inline"> Dilakukan Lebih Efektif</h1>
+                    <h3 class="display-4 mb-4">Pencegahan, Mendeteksi, Mencegah</h3>
+                    <p class="lead mb-4 text-muted">Pengawasan online untuk memajukan program PEMBELAJARAN dan UJIAN. Validasi pengetahuan. Lebih Efektif. Akses yang lebih mudah.</p>
+                    </div>
+                    <div class="col text-right">
+                        <img src="{{ url_for('static', filename='sistem.gif') }}"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section class="content content-bg">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <h2 class="text-center mb-0">Platform Terintegrasi dengan Pembelajaran AI</h2>
+      </div>
+      </div>
+
+      <div class="row align-items-center my-large">
+        <div class="col-md-6">
+        <div id="platform-exam_proctoring" class="platform-animation">
+          <img src="{{ url_for('static', filename='tujuan.gif') }}"/>
+        </div>
+        </div>
+        <div class="col-md-6 col-lg-5 offset-lg-1">
+        <h1 class="display-2 mb-4">Tujuan</h1>
+        <p class="lead mb-4 text-muted">Mempermudah bentuk pengawasan didalam ujian.</p>
+        </div>
+        </div>
+
+        <div class="row align-items-center my-large">
+          <div class="col-md-6 order-md-2 offset-lg-1 ">
+            <img src="{{ url_for('static', filename='security.gif') }}"/>
+          </div>
+          <div class="col-md-6 col-lg-5 order-md-1">
+          <h1 class="display-2 mb-4">Sistem</h1>
+          <p class="lead mb-4 text-muted">Sistem yang dibangun berbasis pembelajaran AI yg dapat mempermudahdalam bentuk pengawasan</p>
+          </div>
+          </div>
+
+      <div class="row align-items-center my-large">
+      <div class="col-md-6">
+      <div id="platform-exam_proctoring" class="platform-animation">
+        <img src="{{ url_for('static', filename='pengawas.gif') }}"/>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-5 offset-lg-1">
+      <h1 class="display-2 mb-4">Pengawas Ujian Online</h1>
+      <p class="lead mb-4 text-muted">Solusi Pengawasan dan Pemantauan termasuk verifikasi gambar dan pembatasan komputer.
+      <ul class="feature-list mt-4">
+      <li>Otomatisasi Pengawasan</li>
+      <li>Pengawasan AI</li>
+      <li>Professional Review</li>
+      </ul>
+      </p>
+      </div>
+      </div>
+
+      <div class="row align-items-center my-large">
+        <div class="col-md-6 order-md-2 offset-lg-1 ">
+          <img src="{{ url_for('static', filename='protection.gif') }}"/>
+        </div>
+        <div class="col-md-6 col-lg-5 order-md-1">
+        <h1 class="display-2 mb-4">Content Protection</h1>
+        <p class="lead mb-4 text-muted"> 
+
+          FraudCatcher memastikan integritas ujian dengan mencegah navigasi internet, penggunaan perangkat seluler, tangkapan layar, pencetakan atau berbagi..</p>
+        <ul class="feature-list mt-4">
+        <li>Pencegahan Kecurangan</li>
+        <li>Pembatasan Copy/Print/Download</li>
+        </ul>
+        </div>
+        </div>
+
+
+      <div class="row align-items-center my-large">
+        <div class="col-md-6">
+          <img src="{{ url_for('static', filename='pencegahan.gif') }}"/>
+        </div>
+        <div class="col-md-6 col-lg-5 offset-lg-1">
+        <h1 class="display-2 mb-4">Distribusi Pencegahan</h1>
+        <p class="lead mb-4 text-muted">FraudCatcher mencegah distribusi pengujian melalui sejumlah pengaturan yang dapat disesuaikan untuk membatasi kemampuan untuk menyalin dan menempel, mencetak, mengunduh, atau membuat tangkapan layar sambil secara otomatis membersihkan cache dan menonaktifkan ekstensi selama penilaian untuk menjaga keamanan konten ujian..</p>
+        </div>
+        </div>
+
+        <div class="row align-items-center my-large">
+          <div class="col-md-6 order-md-2 offset-lg-1 ">
+            <img src="{{ url_for('static', filename='verify.gif') }}"/>
+          </div>
+          <div class="col-md-6 col-lg-5 order-md-1">
+          <h1 class="display-2 mb-4">Image Verification</h1>
+          <p class="lead mb-4 text-muted">Identifikasi pengenalan, dianalisis dan diverifikasi, kemudian hanya diizinkan untuk login.</p>
+          <ul class="feature-list mt-4">
+          <li>Teknologi Deteksi Wajah</li>
+          <li>Verifikasi Otomatis</li>
+          <li>Verifikasi Gambar Langsung</li>
+          </ul>
+          </div>
+          </div>
+      
+      <div class="row align-items-center">
+      <div class="col-md-6">
+      <div id="platform-data_analytics" class="platform-animation mb-3 mt-3">
+        <img src="{{ url_for('static', filename='analis.gif') }}"/>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-5 offset-lg-1">
+      <h1 class="display-2 mb-4">Data Analytics</h1>
+      <p class="lead mb-4 text-muted">Data instan dan objektif segera tersedia setelah setiap penilaian, dengan parameter yang ditetapkan oleh instruktur atau administrator.</p>
+      <ul class="feature-list mt-4">
+      <li>Dashboard Admin</li>
+      <li>Monitoring Siswa</li>
+      <li>Data Ujian</li>
+      </ul>
+      </div>
+      </div>
+
+      <div class="row align-items-center my-large">
+        <div class="col-md-6 order-md-2 offset-lg-1 ">
+          <img src="{{ url_for('static', filename='dashboard.gif') }}"/>
+        </div>
+        <div class="col-md-6 col-lg-5 order-md-1">
+        <h1 class="display-2 mb-4">Dashboard Admin</h1>
+        <p class="lead mb-4 text-muted">Buat pengaturan global dan laporan penggunaan yang memberi informasi yang dapat ditindaklanjuti berdasarkan peraturan, sekolah, atau institusi. Filter aktivitas dan pelaporan berdasarkan kursus, peserta tes, atau ujian..</p>
+        <p class="lead mb-4 text-muted">Mengelola parameter ujian, persyaratan komputer, informasi akun, kontrol fakultas, dan pengaturan Buku Nilai.</p>
+        </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-md-6">
+          <div id="platform-professional_review" class="platform-animation mb-3 mt-3">
+          </div>
+          <img src="{{ url_for('static', filename='review.gif') }}"/>
+          </div>
+          <div class="col-md-6 col-lg-5 offset-lg-1">
+          <h1 class="display-2 mb-4">Professional Review</h1>
+          <p class="lead mb-4 text-muted">Model AI yang terlatih tersedia untuk menganalisis pengawasan ujian untuk masalah ketidakjujuran akademik. Memberikan pelaporan terperinci pada hari yang sama, hari berikutnya atau berdasarkan kebutuhan Anda.</p>
+          </div>
+          </div>
+
+
+          <div class="row align-items-center my-large">
+            <div class="col-md-6 order-md-2 offset-lg-1 ">
+              <img src="{{ url_for('static', filename='informasi.gif') }}"/>
+            </div>
+            <div class="col-md-6 col-lg-5 order-md-1">
+            <h1 class="display-2 mb-4">Informasi yang dapat Ditindak lanjuti</h1>
+            <p class="lead mb-4 text-muted">Model AI analitik data menjadi tersedia secara instan setelah setiap penilaian, dan terakumulasi dari waktu ke waktu. Informasi ini berguna untuk dengan cepat mengidentifikasi perilaku yang tidak biasa atau mencurigakan yang mungkin mengindikasikan ketidakjujuran akademis.</p>
+            <p class="lead mb-4 text-muted">Dengan menandai peserta tes yang mungkin membutuhkan bantuan, Model AI ini adalah alat yang berharga untuk meningkatkan retensi dan meningkatkan hasil belajar.</p>
+            </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-md-6">
+              <div id="platform-professional_review" class="platform-animation mb-3 mt-3">
+              </div>
+              <img src="{{ url_for('static', filename='live.gif') }}"/>
+              </div>
+              <div class="col-md-6 col-lg-5 offset-lg-1">
+              <h1 class="display-2 mb-4">Live Proctoring</h1>
+              <p class="lead mb-4 text-muted">Ini memungkinkan intervensi segera selama ujian dan memberikan pelaporan langsung penuh sesuai permintaan.</p>
+              </div>
+              </div>
+
+      </div>
+      </section>      
+<br>
+
+<section class="py-5">
+    <div class="container">
+    <div class="card shadow bg-white text-secondary">
+    <div class="card-body">
+<div class="pt-5 pb-4 mb-3 border-top">
+    <div class="container pb-2">
+      <h2 class="text-center  mb-5 no-xs-margin-bottom">
+        Verifikasi Keaslian Peserta Dengan Sistem Otentikasi berdasarkan 3 Poin :
+      </h2>
+      <div class="row  py-4">
+        <div class="col-md-5 mt-5">
+          <div class="row mb-2">
+            <div class="col-xs-3">
+              <img loading="lazy" src="/static/examcheck.png" alt="Candidate-enter-registration-details" class="center-block img img-responsive" style="height:45px;">
+              
+            </div>
+            <div class="col-xs-9 pl-0">
+              <h4 class="mt-1 pl-0 text-bold">
+                Peserta memasukkan detail pendaftaran 
+              </h4>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-xs-3">
+              <img loading="lazy" src="/static/candidateclickspic.png" alt="Candidate-clicks-his-picture" class="center-block img img-responsive" style="height:45px;">
+            </div>
+            <div class="col-xs-9 pl-0">
+              <h4 class="mt-2 pl-0 text-bold">
+                Peserta mengklik gambarnya
+              </h4>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-xs-3">
+              <img loading="lazy" src="/static/idverify.png" alt="Candidate-verifies-his-ID-proof" class="center-block img img-responsive" style="height:45px;">
+  
+            </div>
+            <div class="col-xs-9 pl-0">
+              <h4 class="mt-2 pl-0 text-bold">
+                Jika wajah peserta diverifikasi maka hanya memungkinkan untuk memberikan ujian.
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 col-sm-7">
+          
+          <picture> 
+            <img loading="lazy" src="/static/mettlverify.jpg" alt="Candidate-Authentication" class="img img-responsive"> 
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+  <div class="card shadow bg-white text-secondary">
+  <div class="card-body">
+  
+  <div class="container">
+  <div class="row">
+  <div class="col-10 offset-1">
+  <h1 class="text-center">MyFraudCatcher Cocok jika digunakan untuk :</h1><br>
+  <div class="row  justify-content-center feature-container">
+  
+  <div class="col-12 col-md-4">
+  <div class="container">
+  <div class="row ">
+  <div class="col-12">
+  <p><img class="img-fluid services-feature-img" src="/static/pp.jpg" alt="Dedicated Account Team"></p>
+  </div>
+  <div class="col-12">
+  <h6 class="text-center">Pendidikan</h6>
+  <p class="text-center">FraudCatcher menawarkan pengalaman ujian online yang diawasi dengan baik untuk peserta dan pada saat yang sama mempromosikan keunggulan dan integritas untuk program pendidikan.</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-12 col-md-4">
+  <div class="container">
+  <div class="row ">
+  <div class="col-12">
+  <p><img class="img-fluid services-feature-img" src="/static/i14.png" alt="Dedicated Account Team"></p>
+  </div>
+  <div class="col-12">
+  <h6 class="text-center">Penilaian</h6>
+  <p class="text-center">Penilaian tersedia di mana saja kapan saja untuk peserta. Teknologi pengawasan kognitif memberikan pengawasan yang lebih baik.</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-12 col-md-4">
+  <div class="container">
+  <div class="row ">
+  <div class="col-12">
+  <p><img class="img-fluid services-feature-img" src="/static/i15.png" alt="Dedicated Account Team"></p>
+  </div>
+  <div class="col-12">
+  <h6 class="text-center">E-Learning Programs</h6>
+  <p class="text-center">Kurangi pengeluaran untuk pusat tes dan pengawasan manual yang tidak efisien. Integrasikan FraudCatcher ke mesin uji yang ada atau gunakan mesin uji untuk memberikan pengujian.</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+</section>
+
+<section class="py-5">
+<div class="container">
+<div class="card shadow bg-white text-secondary">
+<div class="card-body">
+
+<!-- <div class="container">
+<div class="row">
+<div class="col-10 offset-1">
+<h1 class="text-center">Dari Manual ke Otomatis, Menjadikan solusi pengawasan yang optimal </h1>
+<h3 class="text-center">AI membantu aktivitas dalam kehidupan</h3>
+<div class="row  justify-content-center feature-container">
+
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i1.png" alt="Dedicated Account Team"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Lindungi Kredibilitas</h6>
+<p class="text-center">Technologi AI membuat lebih terlindungi</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i2.png" alt="Dedicated Account Team"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Membantu mengurangi Biaya</h6>
+<p class="text-center">Hilangkan beban infrastruktur fisik yang mahal tanpa mengorbankan keamanan.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i3.png" alt="Dedicated Account Team"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Uji kapan saja, Dimana saja</h6>
+<p class="text-center">Peserta tes memiliki kebebasan untuk menguji saat nyaman dari mana saja.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i4.png" alt="Dedicated Account Team"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Performa yang Stabil</h6>
+<p class="text-center">Menawarkan performa yang lebih stabil dan mudah diakses.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i5.png" alt="Dedicated Account Team"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Fasilitas Dashboard Ujian</h6>
+<p class="text-center">Tinjau dan periksa untuk setiap ujian.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src=/static/i6.png alt="Dedicated Account Team"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Laporan Terintegritas</h6>
+<p class="text-center">Selidiki sesi peserta tes tertentu dan tentukan apakah tindakan diperlukan.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i7.png" alt="Dedicated Account Team"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Akun tim Khusus</h6>
+<p class="text-center">Setiap klien dan admin tes mendapatkan tim ProctorU khusus yang menjawab pertanyaan dan membantu penyiapan ujian.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i8.png" alt="Free Technical Support"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Teknikal Support</h6>
+<p class="text-center">Menawarkan dukungan teknis terkait ujian.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i9.png" alt="Unmatched Scalability"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Skalabilitas yang Bagus</h6>
+<p class="text-center">Mengamankan ujian online yang terbilang bagus.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i10.png" alt="User Satisfaction"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Hasil yang Maksimal</h6>
+<p class="text-center">Kepuasan peserta dalam menghadapi ujian.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i11.png" alt="Unparalleled Uptime"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Waktu yang Fleksibel</h6>
+<p class="text-center">Akses penjadwalan, pengawasan, dan pelaporan.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-4">
+<div class="container">
+<div class="row ">
+<div class="col-12">
+<p><img class="img-fluid services-feature-img" src="/static/i12.png" alt="Technology"></p>
+</div>
+<div class="col-12">
+<h6 class="text-center">Teknologi AI</h6>
+<p class="text-center">Teknologi terbaru seiring dengan berkembangnya Zaman. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>-->
+        </div>
+    </div>
+</div> 
+</section>
+
+{% endblock %}

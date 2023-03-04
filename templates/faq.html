@@ -1,0 +1,53 @@
+{% extends 'layout.html' %}
+{% block body %}
+<main>
+    <section class="d-flex align-items-center my-5 mt-lg-6 mb-lg-5">
+               <div class="container">
+                       <div class="col-12 d-flex align-items-center justify-content-center">
+                           <div class="bg-white p-4 p-lg-5 w-100 fmxw-1000">
+                               <div class="text-center text-md-center mb-4 mt-md-0">
+                                   <h1 class="mb-0 h3">FAQ's</h1>
+                               </div>
+                               <img src="{{ url_for('static', filename='faq.gif') }}">
+<div class="accordion" id="accordionExample1">
+    <div class="card card-sm card-body border-light mb-0">
+        <a href="#panel-1" data-target="#panel-1" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+            <span class="h6 mb-0 font-weight-bold">General FAQ's</span>
+            <span class="icon"><i class="fas fa-plus"></i></span>
+        </a>
+        <div class="collapse" id="panel-1">
+        <div class="card-body">
+        <div class="qanda">
+        <h5>
+            Bagaimana Sistem berintegrasi dengan manajemen pembelajaran atau sistem pengiriman ujian? </h5>
+        <hr>
+        <p>Platform ini terintegrasi dengan semua sistem pembelajaran utama,  sistem dapat membantu menemukan pengiriman ujian program Anda secara online dari ujian berbasis kertas.. </p>
+        </div>
+        <div class="qanda">
+        <h5>
+            Bagaimana memenuhi persyaratan ? </h5>
+        <hr>
+        <p>
+            Sistem bekerja dengan ujian yang memiliki persyaratan sepanjang waktu. Layanan ini menawarkan tingkat penyesuaian tambahan dan pelatihan pengawas khusus untuk hal-hal seperti prosedur memulai ujian, tindakan keamanan, dan aturan interaksi peserta ujian. </p>
+        </div>
+        <div class="qanda">
+        <h5>
+            Bagaimana sistem menangani volume tinggi? </h5>
+        <hr>
+        <p>
+            Sistem mengoperasikan kemampuan untuk mengukur informasi dan solusi teknologi untuk membantu dalam menentukan kebutuhan. </p>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        
+    
+
+</div>
+</div>
+    </div>
+    </div>
+    </section>
+    </main>
+{% endblock %}
